@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxe Bistro | Fine Dining Experience </title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- AOS Library for Scroll Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top ">
+        <div class="container">
+            <a class="navbar-brand" href="#">Luxe<span class="text-gold">Bistro</span></a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reserve">Reserve</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-primary" href="#reservation">Reserve a Table</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="row align-items-center hero-content">
+                <div class="col-lg-6" data-aos='fade-right' data-aos-delay="400">
+                    <h1 class="hero-heading">Savor the Taste of Elegance</h1>
+                    <p class="lead mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum consequuntur
+                        dolorum eaque distinctio! Esse, tenetur.</p>
+
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="#reservations" class="btn btn-primary">Reserve a Table</a>
+                        <a href="#menu" class="btn btn-outline-primary">View Menu</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="700">
+                    <div class="hero-image">
+                        <img src="images/hero-pizza.svg" alt="pizza">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about-content section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up" data-aos-delay="400">
+                    <h2 class="section-title">Our Story</h2>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h3 class="mb-4">Lorem Ipsum Dolor Sit Amet Consectetur Elit.</h3>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, dolores?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Amet, minima!</p>
+                    <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet.
+                        Lorem ipsum dolor sit amet.
+                    </p>
+
+                    <div class="row mt-3">
+                        <div class="col-md-4 feature-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="text-center">
+                                <div class="feature-icon">
+                                    <i class="fa-solid fa-leaf"></i>
+                                </div>
+                                <h5>Fresh Ingredients</h5>
+                                <p>Locally sourced, seasonal produce</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 feature-item" data-aos="fade-up" data-aos-delay="300">
+                            <div class="text-center">
+                                <div class="feature-icon">
+                                    <i class="fa-solid fa-utensils"></i>
+                                </div>
+                                <h5>Premium Dining</h5>
+                                <p>Locally sourced, seasonal produce</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 feature-item" data-aos="fade-up" data-aos-delay="400">
+                            <div class="text-center">
+                                <div class="feature-icon">
+                                    <i class="fa-solid fa-user"></i>
+                                </div>
+                                <h5>World-Class Chefs</h5>
+                                <p>Locally sourced, seasonal produce</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+                    <div class="chef-image">
+                        <img src="images/chef.png" alt="chef image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up" data-aos-delay="200>
+                    <div class=" section-title">
+                    <h2>Our Menu</h2>
+                    <p class="lead">Discover our tasty selection of dishes</p>
+                </div>
+            </div>
+            <div class="row">
+                <ul class="nav nav-pills mb-3 justify-content-center " id="menuTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id=",starters-tab" data-bs-toggle="pill"
+                            data-bs-target="#starters" type="button" role="tab" aria-controls="starters"
+                            aria-selected="true">Starters</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="main-tab" data-bs-toggle="pill" data-bs-target="#main"
+                            type="button" role="tab" aria-controls="main" aria-selected="false">Main
+                            Course</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="dessert-tab" data-bs-toggle="pill" data-bs-target="#dessert"
+                            type="button" role="tab" aria-controls="dessert" aria-selected="false">Dessert</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="drinks-tab" data-bs-toggle="pill" data-bs-target="#drinks"
+                            type="button" role="tab" aria-controls="drinks" aria-selected="false">Drinks</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-content" id="pills-menuTabContent">
+
+                <!-- Starters -->
+                <div class="tab-pane fade show active" id="starters" role="tabpanel"
+                    aria-labelledby="pills-starters-tab" tabindex="0">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                            <div class="menu-item">
+                                <div class="menu-item-img">
+                                    <img src="images/menu/wings.png" alt="wings image">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-title">
+                                        <h5>Chicken Wings (BBQ)</h5>
+                                        <span class="menu-item-price">$18</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                            <div class="menu-item">
+                                <div class="menu-item-img">
+                                    <img src="images/menu/bread.png" alt="wings image">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-title">
+                                        <h5>Chicken Wings (BBQ)</h5>
+                                        <span class="menu-item-price">$18</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+                            <div class="menu-item">
+                                <div class="menu-item-img">
+                                    <img src="images/menu/sticks.png" alt="wings image">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-title">
+                                        <h5>Chicken Wings (BBQ)</h5>
+                                        <span class="menu-item-price">$18</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="500">
+                            <div class="menu-item">
+                                <div class="menu-item-img">
+                                    <img src="images/menu/salad.png" alt="wings image">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-title">
+                                        <h5>Chicken Wings (BBQ)</h5>
+                                        <span class="menu-item-price">$18</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="600">
+                            <div class="menu-item">
+                                <div class="menu-item-img">
+                                    <img src="images/menu/soup.png" alt="wings image">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-title">
+                                        <h5>Chicken Wings (BBQ)</h5>
+                                        <span class="menu-item-price">$18</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Main -->
+                <div class="tab-pane fade" id="main" role="tabpanel" aria-labelledby="pills-main-tab" tabindex="0">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                            <div class="menu-item">
+                                <div class="menu-item-img">
+                                    <img src="images/menu/burger.png" alt="wings image">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-title">
+                                        <h5>Chicken Wings (BBQ)</h5>
+                                        <span class="menu-item-price">$18</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                            <div class="menu-item">
+                                <div class="menu-item-img">
+                                    <img src="images/menu/clamari.png" alt="wings image">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-title">
+                                        <h5>Chicken Wings (BBQ)</h5>
+                                        <span class="menu-item-price">$18</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                            <div class="menu-item">
+                                <div class="menu-item-img">
+                                    <img src="images/menu/pizza.png" alt="wings image">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-title">
+                                        <h5>Chicken Wings (BBQ)</h5>
+                                        <span class="menu-item-price">$18</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                            <div class="menu-item">
+                                <div class="menu-item-img">
+                                    <img src="images/menu/pasta.png" alt="wings image">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-title">
+                                        <h5>Chicken Wings (BBQ)</h5>
+                                        <span class="menu-item-price">$18</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                            <div class="menu-item">
+                                <div class="menu-item-img">
+                                    <img src="images/menu/potatoes.png" alt="wings image">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-title">
+                                        <h5>Chicken Wings (BBQ)</h5>
+                                        <span class="menu-item-price">$18</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                            <div class="menu-item">
+                                <div class="menu-item-img">
+                                    <img src="images/menu/salmon.png" alt="wings image">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-title">
+                                        <h5>Chicken Wings (BBQ)</h5>
+                                        <span class="menu-item-price">$18</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Desserts -->
+                <div class="tab-pane fade" id="dessert" role="tabpanel" aria-labelledby="pills-dessert-tab"
+                    tabindex="0">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                            <div class="menu-item">
+                                <div class="menu-item-img">
+                                    <img src="images/menu/cake.png" alt="wings image">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-title">
+                                        <h5>Chicken Wings (BBQ)</h5>
+                                        <span class="menu-item-price">$18</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                            <div class="menu-item">
+                                <div class="menu-item-img">
+                                    <img src="images/menu/cake2.png" alt="wings image">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-title">
+                                        <h5>Chicken Wings (BBQ)</h5>
+                                        <span class="menu-item-price">$18</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                            <div class="menu-item">
+                                <div class="menu-item-img">
+                                    <img src="images/menu/cake3.png" alt="wings image">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-title">
+                                        <h5>Chicken Wings (BBQ)</h5>
+                                        <span class="menu-item-price">$18</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                            <div class="menu-item">
+                                <div class="menu-item-img">
+                                    <img src="images/menu/cake4.png" alt="wings image">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-title">
+                                        <h5>Chicken Wings (BBQ)</h5>
+                                        <span class="menu-item-price">$18</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                            <div class="menu-item">
+                                <div class="menu-item-img">
+                                    <img src="images/menu/fruit.png" alt="wings image">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-title">
+                                        <h5>Chicken Wings (BBQ)</h5>
+                                        <span class="menu-item-price">$18</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                            <div class="menu-item">
+                                <div class="menu-item-img">
+                                    <img src="images/menu/icecream.png" alt="wings image">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-title">
+                                        <h5>Chicken Wings (BBQ)</h5>
+                                        <span class="menu-item-price">$18</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Drinks -->
+                <div class="tab-pane fade" id="drinks" role="tabpanel" aria-labelledby="pills-drinks-tab" tabindex="0">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                            <div class="menu-item">
+                                <div class="menu-item-img">
+                                    <img src="images/menu/coffee.png" alt="wings image">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-title">
+                                        <h5>Chicken Wings (BBQ)</h5>
+                                        <span class="menu-item-price">$18</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                            <div class="menu-item">
+                                <div class="menu-item-img">
+                                    <img src="images/menu/coffee2.png" alt="wings image">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-title">
+                                        <h5>Chicken Wings (BBQ)</h5>
+                                        <span class="menu-item-price">$18</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                            <div class="menu-item">
+                                <div class="menu-item-img">
+                                    <img src="images/menu/drink.png" alt="wings image">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-title">
+                                        <h5>Chicken Wings (BBQ)</h5>
+                                        <span class="menu-item-price">$18</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                            <div class="menu-item">
+                                <div class="menu-item-img">
+                                    <img src="images/menu/juice.png" alt="wings image">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-title">
+                                        <h5>Chicken Wings (BBQ)</h5>
+                                        <span class="menu-item-price">$18</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                            <div class="menu-item">
+                                <div class="menu-item-img">
+                                    <img src="images/menu/juice2.png" alt="wings image">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-title">
+                                        <h5>Chicken Wings (BBQ)</h5>
+                                        <span class="menu-item-price">$18</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                            <div class="menu-item">
+                                <div class="menu-item-img">
+                                    <img src="images/menu/water.png" alt="wings image">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-title">
+                                        <h5>Chicken Wings (BBQ)</h5>
+                                        <span class="menu-item-price">$18</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- Reservation Section -->
+    <section id="reserve" class="reservation-section section">
+        <div class="container position-relative">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up" data-aos-delay="500">
+                    <h2 class="section-title">Make a Reservation</h2>
+                    <p class="lead text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8" data-aos="fade-up">
+                    <div class="reservation-card">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Your Name">
+                                </div>
+
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control" placeholder="Your Email">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="tel" class="form-control" placeholder="Your Phone">
+                                </div>
+
+                                <div class="col-md-6">
+                                    <input type="number" class="form-control" placeholder="Number of Guests" min="1">
+                                </div>
+
+                                <div class="col-md-6">
+                                    <input type="date" class="form-control">
+                                </div>
+
+                                <div class="col-md-6">
+                                    <input type="time" class="form-control">
+                                </div>
+                                <div class="col-12" rows="10" cols="12">
+                                    <textarea name="font-control" rows="4"
+                                        placeholder="Your special request"></textarea>
+                                </div>
+                                <div class="col-12 text-center mt-4">
+                                    <button type="submit" class="btn btn-primary">Reserve Now</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up" data-aos-delay="100">
+                    <h2 class="section-title">Our Gallery</h2>
+                    <p class="lead">A glimps of the Luxe Bistro experience</p>
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="gallery-item">
+                        <img src="images/gallery/signature.png" alt="Signature Dish">
+                        <div class="gallery-item-overlay">
+                            <h5 class="text-white">Signature Dish</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="gallery-item">
+                        <img src="images/gallery/interior.png" alt="Signature Dish">
+                        <div class="gallery-item-overlay">
+                            <h5 class="text-white">Signature Dish</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="gallery-item">
+                        <img src="images/gallery/burger.png" alt="Signature Dish">
+                        <div class="gallery-item-overlay">
+                            <h5 class="text-white">Signature Dish</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="gallery-item">
+                        <img src="images/gallery/dessert.png" alt="Signature Dish">
+                        <div class="gallery-item-overlay">
+                            <h5 class="text-white">Signature Dish</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="gallery-item">
+                        <img src="images/gallery/pizza.png" alt="Signature Dish">
+                        <div class="gallery-item-overlay">
+                            <h5 class="text-white">Gourment Pizza</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
+                    <div class="gallery-item">
+                        <img src="images/gallery//bbq.png" alt="Signature Dish">
+                        <div class="gallery-item-overlay">
+                            <h5 class="text-white">Signature Dish</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonial Section -->
+    <section id="testimonials" class="testimonial-section position-relative section">
+        <div class="floating-icons">
+            <i class="fas fa-utensils floating-icon" style="left: 5%; animation-delay: 0s;"></i>
+            <i class="fas fa-wine-glass floating-icon" style="left: 15%; animation-delay: 5s;"></i>
+            <i class="fas fa-heart floating-icon" style="left: 80%; animation-delay: 10s;"></i>
+            <i class="fas fa-star floating-icon" style="left: 90%; animation-delay: 15s;"></i>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up" data-aos-delay="300">
+                    <h2 class="section-title">What Our Guest Says</h2>
+                    <p class="lead">Experience from our valued customers</p>
+                </div>
+            </div>
+            <div id="testimonialCarousel" class="carousel slide">
+                <div class="carousel-inner pb-4">
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-md-8" data-aos="fade-up" data-aos-delay="300">
+                                    <div class="testimonial-card shadow">
+                                        <img src="images/client1.png" alt="client-1" class="profile-img">
+                                        <h5 class="mb-2">John Doe</h5>
+                                        <div class="stars mb-3">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p><em>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum earum
+                                                tempora voluptatibus laborum, reiciendis ratione."</em></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-md-8" data-aos="fade-up" data-aos-delay="300">
+                                    <div class="testimonial-card shadow">
+                                        <img src="images/client2.png" alt="client-2" class="profile-img">
+                                        <h5 class="mb-2">John Doe</h5>
+                                        <div class="stars mb-3">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p><em>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum earum
+                                                tempora voluptatibus laborum, reiciendis ratione."</em></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-md-8" data-aos="fade-up" data-aos-delay="300">
+                                    <div class="testimonial-card shadow">
+                                        <img src="images/client3.png" alt="client-3" class="profile-img">
+                                        <h5 class="mb-2">John Doe</h5>
+                                        <div class="stars mb-3">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p><em>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum earum
+                                                tempora voluptatibus laborum, reiciendis ratione."</em></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up" data-aos-delay="200">
+                    <h2 class="section-title">Contact Us</h2>
+                    <p class="lead">We'd love the hear from you</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3011.882256411223!2d37.90441007555707!3d40.98405902091664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDU5JzAyLjYiTiAzN8KwNTQnMjUuMiJF!5e0!3m2!1str!2str!4v1761214173485!5m2!1str!2str"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="ps-lg-5">
+                        <h3 class="mb-4">Get In Touch</h3>
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h5>Adress</h5>
+                                <p>123 Luxury Lane, New York, 10012</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h5>Phone</h5>
+                                <p>(212) 555-12345</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h5>Email</h5>
+                                <p>email@example.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div>
+                                <h5>Hours</h5>
+                                <p>Sunday - Saturday - 11:00 <br> Sunday: 5:00 PM - 9:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="400">
+                    <h3 class="text-white mb-4">Luxe<span class="text-gold">Bistro</span></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.Harum, iusto
+                        magni. Numquam.</p>
+                    <div class="social-icons mt-4">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-5 mb-md-0" data-aos="fade-up" data-aos-delay="500">
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#reserve">Reservation</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-0" data-aos="fade-up" data-aos-delay="600">
+                    <h4 class="text-white mb-4">Opening Hours</h4>
+                    <ul class="footer-links">
+                        <li>Monday - Saturday : 5:00 Pm</li>
+                        <li>Sunday : 5:00 Pm - 9:00 Pm</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3" data-aos="fade-up" data-aos-delay="600">
+                    <h5 class="text-white mb-4">Newsteller</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="newsteller-form">
+                        <input type="email" class="newsteller-input" placeholder="Your Email">
+                        <button class="newsteller-btn">Subscribe</button>
+                    </div>
+                </div>
+                <div class="row pt-4">
+                    <div class="col-12 text-center">
+                        <p class="mb-0">&copy; 2025 Luxe Bistro. All rights reserved</p>
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+
+    <!-- Back To Top Button -->
+    <a href="#home" class="back-to-top-btn"><i class="fa-solid fa-arrow-up"></i></a>
+
+
+
+    <!-- Scrip JS -->
+    <script src=" script.js">
+    </script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS JS (mutlaka bundle'dan sonra) -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Initialize AOS -->
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+    </script>
+</body>
+
+</html>

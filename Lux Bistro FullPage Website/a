@@ -1,0 +1,33 @@
+data-aos="fade-up" data-aos-delay="300"
+
+
+
+
+
+
+
+
+
+Evet 🙂
+sorunun nedeni şu **tek yazım hatası**:
+
+Senin CSS’inde şu satır var 👇
+
+```css
+animation: drift 20s linear inifinite;
+```
+
+Ama doğru yazımı şöyle olmalı 👇
+
+```css
+animation: drift 20s linear infinite;
+```
+
+Yani **“inifinite”** yerine **“infinite”** yazmalısın.
+Bu yüzden `@keyframes drift` animasyonu hiç çalışmıyor.
+
+---
+
+İstersen ben sana `floating icons` efektinin **çalışır örnek** halini de yazabilirim (HTML + CSS olarak), böylece
+animasyonu ekranda gerçekten döner halde görebilirsin.
+Hazırlayayım mı?
